@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a;
-    scanf("%d",&a);
+    char a;
+    scanf("%c",&a);
     if (isupper(a)){
         printf("Uppercase");
     }
