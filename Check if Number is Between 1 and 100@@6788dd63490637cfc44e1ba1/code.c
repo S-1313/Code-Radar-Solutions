@@ -3,17 +3,11 @@
 int main() {
     int a;
     scanf("%d", &a);
-
-    // Loop through the range from 0 to 100
-    for (int n = 1; n <= 100; n++) {
-        if (a == n) {
-            printf("In Range");
-            break;  // Exit the loop once the match is found
-        }
-    }
-
-    // If no match is found (loop finishes without break)
-    if (a < 1 || a > 100) {
+    
+    // Check if 'a' is within the range of 0 to 100
+    if (a >= 1 && a <= 100) {
+        printf("In Range");
+    } else {
         printf("Out of Range");
     }
     
