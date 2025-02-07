@@ -7,6 +7,7 @@ int main() {
     for (int n=0;n<=100;n++){
         if (a==n){
             printf("In Range");
+            break;
         }
         else{
             printf("Out of Range");
