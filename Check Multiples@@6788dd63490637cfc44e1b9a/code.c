@@ -7,9 +7,9 @@ int main() {
         if (a=b*n){
             
             printf("Yes");
-            break;
+            
         }
-
+break;
         else{
             printf("No");
         }
